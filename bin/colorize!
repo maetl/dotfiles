@@ -1,0 +1,9 @@
+#!/bin/bash
+# colorize the terminal output
+
+if [ "$1" != "--off" ]
+then
+	echo 'export CLICOLOR=1'
+else
+	echo 'unset CLICOLOR'
+fi
